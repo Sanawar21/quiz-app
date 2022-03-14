@@ -13,15 +13,15 @@ void main() {
 class MyApp extends StatelessWidget {
   final Future _firebaseApp = Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyCg_ISUUoo7NptZtwxb9yChc9XrXBNmr2s",
-          authDomain: "quiz-app-web.firebaseapp.com",
+          apiKey: "...",
+          authDomain: "...",
           databaseURL:
-              "https://quiz-app-web-default-rtdb.asia-southeast1.firebasedatabase.app",
-          projectId: "quiz-app-web",
-          storageBucket: "quiz-app-web.appspot.com",
-          messagingSenderId: "352119065383",
-          appId: "1:352119065383:web:e8f79b2d6a9a9188167702",
-          measurementId: "G-6JQVTF86LX"));
+              "...",
+          projectId: "...",
+          storageBucket: "...",
+          messagingSenderId: "...",
+          appId: "...",
+          measurementId: "..."));
 
   @override
   Widget build(BuildContext context) {
