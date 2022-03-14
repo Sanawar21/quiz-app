@@ -13,12 +13,8 @@ import '../models/reduced_quiz.dart';
 
 import './authenticate.dart' as _auth;
 
-// const String _baseURL = "https://quiz-app-23538-default-rtdb.firebaseio.com/";
-
 final DatabaseReference _database = FirebaseDatabase.instance.ref();
 
-// final _database = FirebaseDatabase.instance.refFromURL(
-//     'https://quiz-app-web-default-rtdb.asia-southeast1.firebasedatabase.app/');
 
 User? get loggedInUser {
   return _auth.loggedInUser;
