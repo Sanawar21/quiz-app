@@ -2,7 +2,7 @@
 
 A quiz app that is connected with a firebase database. 
 
-The app supports comments, likes and followers and followings for each user.
+The app supports comments, likes and followers and followings for each user and advanced user authentication.
 
 It can be ran on android, ios, windows, and as a web app on chrome.
 
